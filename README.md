@@ -1,6 +1,6 @@
 # changeColorByAndroidApp
 
-## 안드로이드폰의 블루투스를 이용해 아두이노에 연결된 네오픽셀(64셀)의 색을 제어하는 예제
+## 안드로이드폰의 블루투스를 이용해 아두이노에 연결된 네오픽셀의 색을 제어하는 예제
 
 ### library  
 - Adafruit_NeoPixel-master.zip - Adafruit사의 Neo Pixel라이브러리. 아두이노IDE 설치 폴더의 library폴더에 압축을 푼 다음 IDE를 재시작해야 함
