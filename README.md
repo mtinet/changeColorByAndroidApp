@@ -33,6 +33,7 @@
 |     11      |     blue     |           |
 |    rx(0)    |              |    tx     |
 |    tx(1)    |              |    rx     |
+![](https://github.com/mtinet/changeColorByAndroidApp/blob/master/image,%20fritzing/commonAnodeRGBLED.png?raw=true)  
 
 ## 아두이노 우노와 NeoPixel, Bluetooth의 연결    
 | 아두이노 우노  |   NeoPixel   | Bluetooth |
@@ -44,4 +45,5 @@
 |    tx(1)    |              |    rx     |
 
 
-![](https://github.com/mtinet/changeColorByAndroidApp/blob/master/neo%20pixel(fritzing).png?raw=true)
+![](https://github.com/mtinet/changeColorByAndroidApp/blob/master/image,%20fritzing/neo pixel(bar).png?raw=true)  
+![](https://github.com/mtinet/changeColorByAndroidApp/blob/master/image,%20fritzing/neo pixel(jewel).png?raw=true)  
