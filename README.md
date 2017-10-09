@@ -26,7 +26,7 @@
 - 일반 RGB LED를 사용하면 특정 핀을 항상 5V를 출력하게 하여 사용이 가능하지만, NeoPixel(HC-06포함)은 전력출력의 문제로 메인 전원 출력 단자를 이용해야 하므로 브레드 보드를 사용해야 함. 다만 납땜을 할 수 있고 아두이노 나노, 아두이노 프로미니 등의 소형 칩을 사용할 수 있는 환경이라면 브레드 보드를 제외하고 소형화가 가능함.
 - commonAnodeRGBLED
 - neo pixel(bar)
-- neo pixel(jewer)
+- neo pixel(jewel)
 
 ## 아두이노 우노와 CommonRGBLED, Bluetooth의 연결    
 | 아두이노 우노  |   CommonRGBLED   | Bluetooth |
