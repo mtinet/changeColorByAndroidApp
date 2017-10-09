@@ -19,7 +19,7 @@
 
 - changeColorByAndroidApp_CommonAnodeRGBLED.ino - CommonAnodeRGBLED를 사용할 때 사용  
 - changeColorByAndroidApp_sk6812RGBW.ino - sk6812RGBW를 사용할 때 사용(White LED가 추가되어 있어 32비트 신호를 주어야 동작함)  
-- changeColorByAndroidApp_ws2812RGB.ino - ws2812RGB를 사용할 때 사용
+- changeColorByAndroidApp_ws2812RGB.ino - ws2812RGB를 사용할 때 사용(24비트 신호로 동작함)  
 
 
 ### schematic(fritzing)
