@@ -18,7 +18,7 @@
 - changeNameOfHC-06.ino - 수업에 적용할 때는 모든 학생의 블루투스 모듈이 같은 이름을 가져 수업에 혼란을 가져오므로 각각의 블루투스 모듈 이름을 다시 지정해줄 때 사용(사용법은 [https://goo.gl/bRhkgR](https://goo.gl/bRhkgR) 참조)  
 
 - changeColorByAndroidApp_CommonAnodeRGBLED.ino - CommonAnodeRGBLED를 사용할 때 사용  
-- changeColorByAndroidApp_sk6812RGBW.ino - sk6812RGBW를 사용할 때 사용  
+- changeColorByAndroidApp_sk6812RGBW.ino - sk6812RGBW를 사용할 때 사용(White LED가 추가되어 있어 32비트 신호를 주어야 동작함)  
 - changeColorByAndroidApp_ws2812RGB.ino - ws2812RGB를 사용할 때 사용
 
 
