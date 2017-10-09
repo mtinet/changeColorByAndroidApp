@@ -10,11 +10,14 @@
 - rgb_led_control_nano.apk - 안드로이드 스마트폰에 설치가 가능한 안드로이드앱, 폰에 복사해서 넣고 설치하면 됨  
 
 ### arduino
-- changeColorByAndroidApp_CommonAnodeRGBLED.ino - CommonAnodeRGBLED를 사용할 때 사용하는 아두이노 스케치, 프로그램 업로드 시 블루투스 모듈(HC-06)을 제거하고 업로드 한 다음 연결할 것  
-- changeColorByAndroidApp_sk6812RGBW.ino - sk6812RGBW를 사용할 때 사용하는 아두이노 스케치, 프로그램 업로드 시 블루투스 모듈(HC-06)을 제거하고 업로드 한 다음 연결할 것  
-- changeColorByAndroidApp_ws2812RGB.ino - ws2812RGB를 사용할 때 사용하는 아두이노 스케치, 프로그램 업로드 시 블루투스 모듈(HC-06)을 제거하고 업로드 한 다음 연결할 것  
+- 프로그램 업로드 시 블루투스 모듈(HC-06)을 제거하고 업로드 한 다음 연결할 것  
+- 네오픽셀의 셀 갯수는 changeColorByAndroidApp.ino 파일의 14열에 있는 '#define NUMPIXELS      3'에 있는 숫자를 네오픽셀의 RGB LED의 갯수로 바꿔주면 됨.  
 - changeNameOfHC-06.ino - 수업에 적용할 때는 모든 학생의 블루투스 모듈이 같은 이름을 가져 수업에 혼란을 가져오므로 각각의 블루투스 모듈 이름을 다시 지정해줄 때 사용(사용법은 [https://goo.gl/bRhkgR](https://goo.gl/bRhkgR) 참조)  
-- 네오픽셀의 셀 갯수는 changeColorByAndroidApp.ino 파일의 14열에 있는 '#define NUMPIXELS      3'에 있는 숫자를 네오픽셀의 RGB LED의 갯수로 바꿔주면 됨.
+
+- changeColorByAndroidApp_CommonAnodeRGBLED.ino - CommonAnodeRGBLED를 사용할 때 사용  
+- changeColorByAndroidApp_sk6812RGBW.ino - sk6812RGBW를 사용할 때 사용  
+- changeColorByAndroidApp_ws2812RGB.ino - ws2812RGB를 사용할 때 사용
+
 
 ### image, fritzing
 - 일반 RGB LED를 사용하면 특정 핀을 항상 5V를 출력하게 하여 사용이 가능하지만, NeoPixel(HC-06포함)은 전력출력의 문제로 메인 전원 출력 단자를 이용해야 하므로 브레드 보드를 사용해야 함. 다만 납땜을 할 수 있고 아두이노 나노, 아두이노 프로미니 등의 소형 칩을 사용할 수 있는 환경이라면 브레드 보드를 제외하고 소형화가 가능함.
